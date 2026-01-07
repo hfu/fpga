@@ -562,7 +562,9 @@ li {
 /* Detail Pages Styles */
 .concepts-detail,
 .edge-node-detail,
-.principles-detail {
+.principles-detail,
+.scenarios-index,
+.scenario {
   max-width: 900px;
   margin: 4rem auto;
   padding: 0 2rem;
@@ -570,7 +572,9 @@ li {
 
 .concepts-detail h1,
 .edge-node-detail h1,
-.principles-detail h1 {
+.principles-detail h1,
+.scenarios-index h1,
+.scenario h1 {
   text-align: center;
   margin-bottom: 2rem;
   border-bottom: 2px solid #0066cc;
@@ -579,14 +583,18 @@ li {
 
 .concepts-detail h2,
 .edge-node-detail h2,
-.principles-detail h2 {
+.principles-detail h2,
+.scenarios-index h2,
+.scenario h2 {
   margin-top: 3rem;
   margin-bottom: 1.5rem;
 }
 
 .concepts-detail p,
 .edge-node-detail p,
-.principles-detail p {
+.principles-detail p,
+.scenarios-index p,
+.scenario p {
   margin-bottom: 1.5rem;
   line-height: 1.8;
   color: #444;
@@ -594,21 +602,53 @@ li {
 
 .concepts-detail ul,
 .edge-node-detail ul,
-.principles-detail ul {
+.principles-detail ul,
+.scenarios-index ul,
+.scenario ul {
   margin-left: 2rem;
   margin-bottom: 1.5rem;
 }
 
 .concepts-detail strong,
 .edge-node-detail strong,
-.principles-detail strong {
+.principles-detail strong,
+.scenarios-index strong,
+.scenario strong {
   color: #1a1a1a;
+}
+
+/* Scenario-specific styling */
+.scenario h2 {
+  font-size: 1.5rem;
+  color: #0066cc;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+}
+
+.scenarios-index ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+.scenarios-index ul li {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.scenarios-index ul li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #0066cc;
 }
 
 /* Back link styling */
 .concepts-detail p:last-child,
 .edge-node-detail p:last-child,
-.principles-detail p:last-child {
+.principles-detail p:last-child,
+.scenarios-index p:last-child,
+.scenario p:last-child {
   text-align: center;
   margin-top: 4rem;
   padding-top: 2rem;

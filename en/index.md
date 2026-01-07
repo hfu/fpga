@@ -9,6 +9,8 @@ lang: en
 # Field Freedom and Platform Power
 {: #main-heading}
 
+This architecture exists because the field cannot wait.
+
 The field is where reality happens. Platforms exist to support the field, not to control it.
 
 </section>
@@ -19,6 +21,8 @@ The field is where reality happens. Platforms exist to support the field, not to
 
 ## Four Concepts
 {: #concepts-heading}
+
+Field Freedom and Platform Power are not enemies. Design fails only when the hierarchy is inverted. The moment a platform becomes mandatory, the system stops working for the field.
 
 **FF — Field Freedom**  
 Systems must work offline, operate independently, and respect field constraints.
@@ -45,11 +49,12 @@ Those who bear consequences make decisions. Action validates architecture.
 
 An edge node is a position in a system where decisions are made under constraints.
 
-Connectivity is intermittent. Power is limited. Information is incomplete. Yet the work must continue.
+Connectivity is intermittent. Power is limited. Information is incomplete. Yet the work must continue. Edge nodes run on low-cost single-board computers.
 
-Cloud-only assumptions fail in the field. Systems designed for continuous connectivity degrade catastrophically when that connectivity disappears. Edge nodes operate where the network is optional, not foundational.
+Cloud-only assumptions fail in the field. Edge nodes operate where the network is optional, not foundational.
 
-[Learn about edge node architecture →](/fpga/en/edge-node/)
+[Learn about edge node architecture →](/fpga/en/edge-node/)  
+[Read edge node scenarios →](/fpga/en/scenarios/)
 
 </section>
 

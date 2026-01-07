@@ -79,12 +79,18 @@ just clean
 │   ├── index.md             # Main page
 │   ├── concepts.md          # Four concepts detail
 │   ├── edge-node.md         # Edge node explanation
-│   └── design-principles.md # Design principles detail
+│   ├── design-principles.md # Design principles detail
+│   └── scenarios/           # Edge node scenarios
+│       ├── index.md         # Scenarios index
+│       └── clinic-without-network.md
 ├── en/                      # English content
 │   ├── index.md             # Main page
 │   ├── concepts.md          # Four concepts detail
 │   ├── edge-node.md         # Edge node explanation
-│   └── design-principles.md # Design principles detail
+│   ├── design-principles.md # Design principles detail
+│   └── scenarios/           # Edge node scenarios
+│       ├── index.md         # Scenarios index
+│       └── clinic-without-network.md
 ├── de/                      # German (placeholder)
 │   └── index.md
 ├── es/                      # Spanish (placeholder)
@@ -123,6 +129,28 @@ Each language directory contains:
 - `concepts.md` - Detailed explanation of FF, PP, GG, AA
 - `edge-node.md` - Edge node conceptual framework and scenarios
 - `design-principles.md` - Six design principles in detail
+- `scenarios/` - Edge node scenario collection
+  - `index.md` - Scenario overview and template
+  - Individual scenario files (e.g., `clinic-without-network.md`)
+
+## Edge Node Scenarios
+
+Edge Node Scenarios are **situational patterns** that demonstrate how the FPGA framework manifests under real-world constraints. Each scenario follows a strict template:
+
+1. **Situation** — Field conditions
+2. **Constraint** — The hardest limit
+3. **Action at the Edge (AA)** — Local decision-making
+4. **Emergence (GG)** — What emerges unplanned
+5. **Platform Interaction (PP)** — Optional synchronization
+6. **Field Outcome (FF)** — Autonomy preserved
+
+Scenarios are:
+- Not fiction
+- Not case studies
+- Not success stories
+- Reusable templates for future contributions
+
+New scenarios can be added without modifying the core framework.
 
 ## Content Architecture
 
@@ -154,6 +182,39 @@ All work on this project follows these principles:
 - **No Lock-In Assumptions**: Migration must always be possible.
 
 See [.github/copilot-instructions.md](.github/copilot-instructions.md) for full development guidance.
+
+## Implementation Guidelines
+
+This repository functions as a **thinking structure** for Edge Node systems. Contributors (human and AI) are expected to:
+
+- Act as **junior architects**, not just code generators
+- Make implementation decisions aligned with FPGA principles
+- Generate reasonable solutions from context and constraints
+- Preserve the "character" of the system
+
+### Decision Framework
+
+Evaluate in this order:
+
+1. Does this contradict FPGA principles? (FF, PP, GG, AA)
+2. Will this work at the edge / in the field?
+3. Is this disposable / replaceable later?
+4. Can I explain this?
+
+If uncertain:
+- Do not over-engineer
+- Choose simple implementations
+- Leave TODO with reasoning
+
+### Technology Preferences
+
+- **Prefer boring technology** — Mature over trendy
+- **Static over dynamic** — Pre-generation over runtime generation
+- **Small and composable** — No monolithic modules
+- **Explicit configuration** — No magic numbers, documented defaults
+- **Logs over silence** — Concise, human-readable failure messages
+
+See the [Implementation Guide section](.github/copilot-instructions.md#implementation-guide-generative-genius-for-edge-node) for complete guidance.
 
 ## Content Guidelines
 

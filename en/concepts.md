@@ -72,6 +72,18 @@ AA is not a pillar. AA is the condition that makes FF, PP, and GG real.
 
 ---
 
+## Who is an edge node
+
+An edge node is anyone working at the boundary.
+
+A teacher without reliable internet. A healthcare worker in a remote clinic. An engineer troubleshooting critical infrastructure. A researcher in challenging terrain.
+
+These people are not edge cases. They are the center.
+
+This architecture is already happening. The question is whether institutions will catch up.
+
+---
+
 [← Back to main page](/fpga/en/)
 
 </section>
