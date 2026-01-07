@@ -1,0 +1,61 @@
+title: FPGA — Field Freedom and Platform Power
+description: A design framework for systems that work in the field
+author: FPGA
+url: https://hfu.github.io/fpga
+baseurl: /fpga
+
+# Jekyll settings
+theme: null
+plugins: []
+
+# Markdown processor
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Output settings
+output: web
+permalink: /:title/
+
+# Languages
+languages:
+  - code: ja
+    name: 日本語
+    default: true
+  - code: en
+    name: English
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: "ja"
+    values:
+      lang: ja
+      lang_name: 日本語
+  - scope:
+      path: "en"
+    values:
+      lang: en
+      lang_name: English
+
+# Exclude files from processing
+exclude:
+  - .gitignore
+  - .git
+  - LICENSE
+  - README.md
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
