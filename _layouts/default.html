@@ -7,34 +7,35 @@
   <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
 </head>
 <body>
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="nav-container">
-      <a href="{{ '/' | relative_url }}" class="nav-logo">fpga</a>
-      <ul class="nav-menu">
-        <li><a href="#concepts">{% if page.lang == 'en' %}Concepts{% else %}コンセプト{% endif %}</a></li>
-        <li><a href="#edge-node">edge node</a></li>
-        <li><a href="#principles">{% if page.lang == 'en' %}Design{% else %}デザイン{% endif %}</a></li>
+  <!-- Header/Navigation -->
+  <header class="navbar" role="banner">
+    <nav class="nav-container" role="navigation" aria-label="{% if page.lang == 'en' %}Main navigation{% else %}メインナビゲーション{% endif %}">
+      <a href="{{ '/' | relative_url }}" class="nav-logo" aria-label="FPGA Home">fpga</a>
+      <ul class="nav-menu" role="list">
+        <li><a href="/fpga/{{ page.lang }}/#concepts">{% if page.lang == 'en' %}Concepts{% else %}コンセプト{% endif %}</a></li>
+        <li><a href="/fpga/{{ page.lang }}/#edge-node">edge node</a></li>
+        <li><a href="/fpga/{{ page.lang }}/#principles">{% if page.lang == 'en' %}Principles{% else %}原則{% endif %}</a></li>
       </ul>
-      <ul class="nav-languages">
-        {% for lang in site.languages %}
-          {% if page.lang == lang.code %}
-            <li><strong>{{ lang.name }}</strong></li>
+      <ul class="nav-languages" role="list" aria-label="{% if page.lang == 'en' %}Language selector{% else %}言語選択{% endif %}">
+        {% assign available_langs = "en,ja" | split: "," %}
+        {% for lang_code in available_langs %}
+          {% if page.lang == lang_code %}
+            <li><strong aria-current="page">{% if lang_code == 'en' %}EN{% elsif lang_code == 'ja' %}JA{% endif %}</strong></li>
           {% else %}
-            <li><a href="/fpga/{{ lang.code }}/">{{ lang.name }}</a></li>
+            <li><a href="/fpga/{{ lang_code }}/" hreflang="{{ lang_code }}">{% if lang_code == 'en' %}EN{% elsif lang_code == 'ja' %}JA{% endif %}</a></li>
           {% endif %}
         {% endfor %}
       </ul>
-    </div>
-  </nav>
+    </nav>
+  </header>
 
   <!-- Main Content -->
-  <main class="main-content">
+  <main class="main-content" role="main">
     {{ content }}
   </main>
 
   <!-- Footer -->
-  <footer class="footer">
+  <footer class="footer" role="contentinfo">
     {% if page.lang == 'en' %}
       <p>&copy; 2026. Concept framework FPGA. Made for the field.</p>
     {% else %}

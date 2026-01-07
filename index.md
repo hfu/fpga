@@ -22,6 +22,6 @@ title: FPGA — Choose Language / 言語を選択
       </a>
     </div>
     
-    <p class="language-note">Future: Español • Deutsch</p>
+    <p class="language-note">Coming: Deutsch • Español • Français • 繁體中文</p>
   </div>
 </div>

@@ -74,39 +74,73 @@ just clean
 
 ```
 .
-├── index.md              # Language selector page
-├── ja/
-│   └── index.md          # Japanese content
-├── en/
-│   └── index.md          # English content
-├── style.css             # Styling (no frameworks)
+├── index.md                 # Language selector page
+├── ja/                      # Japanese content
+│   ├── index.md             # Main page
+│   ├── concepts.md          # Four concepts detail
+│   ├── edge-node.md         # Edge node explanation
+│   └── design-principles.md # Design principles detail
+├── en/                      # English content
+│   ├── index.md             # Main page
+│   ├── concepts.md          # Four concepts detail
+│   ├── edge-node.md         # Edge node explanation
+│   └── design-principles.md # Design principles detail
+├── de/                      # German (placeholder)
+│   └── index.md
+├── es/                      # Spanish (placeholder)
+│   └── index.md
+├── fr/                      # French (placeholder)
+│   └── index.md
+├── zh-tw/                   # Traditional Chinese (placeholder)
+│   └── index.md
+├── style.css                # Styling (no frameworks)
 ├── _layouts/
-│   ├── default.html      # Main template with navigation
-│   └── minimal.html      # Minimal template for language selector
-├── _config.yml           # Jekyll configuration (multilingual)
-├── Justfile              # Development commands
-├── Gemfile               # Ruby dependencies
-├── .gitignore            # Git ignore rules
-├── README.md             # This file
-├── LICENSE               # Project license
+│   ├── default.html         # Main template with navigation
+│   └── minimal.html         # Minimal template for language selector
+├── _config.yml              # Jekyll configuration (multilingual)
+├── Justfile                 # Development commands
+├── Gemfile                  # Ruby dependencies
+├── .gitignore               # Git ignore rules
+├── README.md                # This file
+├── LICENSE                  # Project license
 └── .github/
     └── copilot-instructions.md  # Development guidelines
 ```
 
 ## Multilingual Support
 
-The site supports multiple languages:
+The site supports multiple languages with a modular structure:
 
-- **Japanese (日本語)**: Default language, fully translated
-- **English**: Complete English version
-- **Future**: Spanish (Español) and German (Deutsch) planned
+- **Japanese (日本語)**: Fully implemented with detailed subpages
+- **English**: Fully implemented with detailed subpages
+- **German (Deutsch)**: Placeholder ready for translation
+- **Spanish (Español)**: Placeholder ready for translation
+- **French (Français)**: Placeholder ready for translation
+- **Traditional Chinese (繁體中文)**: Placeholder ready for translation
 
-Language structure:
-- Root `/` — Language selector
-- `/ja/` — Japanese content
-- `/en/` — English content
+Each language directory contains:
+- `index.md` - Landing page with overview and links
+- `concepts.md` - Detailed explanation of FF, PP, GG, AA
+- `edge-node.md` - Edge node conceptual framework and scenarios
+- `design-principles.md` - Six design principles in detail
 
-Each language version is independent and can be viewed offline.
+## Content Architecture
+
+The site follows a two-tier structure:
+
+**Tier 1: Overview Pages** (`/en/index.md`, `/ja/index.md`)
+- One-sentence thesis
+- Four concepts (FF, PP, GG, AA) with brief definitions
+- Edge node introduction
+- Design principles snapshot (names only)
+- Links to detailed pages
+
+**Tier 2: Detail Pages**
+- `/en/concepts.md` — Full explanation of FF, PP, GG, AA with examples
+- `/en/edge-node.md` — Conceptual definition, characteristics, realistic scenario
+- `/en/design-principles.md` — Six principles with detailed explanations
+
+This structure ensures the framework is understandable in under two minutes while providing depth for those who need it.
 
 ## Design Principles
 

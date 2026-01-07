@@ -194,27 +194,18 @@ li {
   padding: 0 2rem;
 }
 
-.concepts h3 {
-  margin-bottom: 1rem;
+.concepts h2 {
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
-.concepts h3 + p {
-  margin-top: 0;
-}
-
-.concepts p {
-  margin-bottom: 1rem;
-  color: #444;
-}
-
-.concepts > h3 {
-  margin-top: 2rem;
-  padding-top: 1.5rem;
+.concept {
+  margin-top: 3rem;
+  padding-top: 2rem;
   border-top: 1px solid #e0e0e0;
-  color: #1a1a1a;
 }
 
-.concepts > h3:first-of-type {
+.concept:first-of-type {
   border-top: none;
   padding-top: 0;
   margin-top: 0;
@@ -223,11 +214,13 @@ li {
 .concept h3 {
   color: #1a1a1a;
   margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
 .concept p {
   margin-bottom: 1rem;
   color: #444;
+  line-height: 1.7;
 }
 
 /* edge node Section */
@@ -250,16 +243,23 @@ li {
   font-size: 1.8rem;
   border-bottom: 2px solid #0066cc;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .edge-node h3 {
-  margin-top: 2em;
+  margin-top: 2.5rem;
   color: #1a1a1a;
+  font-size: 1.3rem;
+}
+
+.edge-node h3:first-of-type {
+  margin-top: 1.5rem;
 }
 
 .edge-node p {
   color: #444;
   margin-bottom: 1rem;
+  line-height: 1.7;
 }
 
 .edge-node ul {
@@ -269,11 +269,21 @@ li {
   margin: 1.5rem 0;
 }
 
+.edge-node li {
+  color: #444;
+  line-height: 1.7;
+}
+
 /* Design Principles Section */
 .principles {
   max-width: 900px;
   margin: 4rem auto;
   padding: 0 2rem;
+}
+
+.principles h2 {
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
 .principles-grid {
@@ -288,11 +298,16 @@ li {
   padding: 1.5rem;
   border: 1px solid #e0e0e0;
   border-left: 3px solid #0066cc;
-  border-radius: 0;
+  transition: border-left-width 0.3s;
 }
 
-.principle h4 {
+.principle:hover {
+  border-left-width: 5px;
+}
+
+.principle h3 {
   color: #1a1a1a;
+  font-size: 1.1rem;
   margin-bottom: 0.75rem;
   margin-top: 0;
 }
@@ -301,57 +316,7 @@ li {
   color: #555;
   font-size: 0.95rem;
   margin-bottom: 0;
-}
-
-/* Markdown-generated principles grid */
-.principles-grid strong {
-  display: block;
-  color: #1a1a1a;
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
-  font-size: 1rem;
-}
-
-.principles-grid strong:first-child {
-  margin-top: 0;
-}
-
-.principles-grid p {
-  color: #555;
-  font-size: 0.95rem;
-  margin-bottom: 1.5rem;
-}
-
-/* Create grid layout for principles */
-.principles-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 0;
-  margin-top: 2rem;
-}
-
-.principles-grid > strong,
-.principles-grid > p {
-  padding: 1.5rem;
-  border: 1px solid #e0e0e0;
-  border-left: 3px solid #0066cc;
-}
-
-.principles-grid > strong {
-  background-color: #fff;
-  padding: 1.5rem 1.5rem 0.5rem;
-  border-bottom: none;
-}
-
-.principles-grid > p {
-  background-color: #fff;
-  padding: 0 1.5rem 1.5rem;
-  border-top: none;
-  margin: 0;
-}
-
-.principles-grid > p + strong {
-  border-top: 1px solid #e0e0e0;
+  line-height: 1.6;
 }
 
 /* Closing Section */
@@ -359,25 +324,28 @@ li {
   max-width: 900px;
   margin: 4rem auto;
   padding: 0 2rem;
-  text-align: center;
 }
 
 .closing h2 {
   border-bottom: 1px solid #ddd;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .closing p {
   font-size: 1.05rem;
-  color: #333;
+  color: #444;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1.5rem;
-  line-height: 1.7;
+  line-height: 1.8;
+  max-width: 70ch;
 }
 
-.closing h2 + p {
+.closing p:first-of-type {
   font-weight: 600;
   color: #1a1a1a;
+  text-align: center;
 }
 
 /* Footer */
@@ -589,4 +557,60 @@ li {
   section {
     page-break-inside: avoid;
   }
+}
+
+/* Detail Pages Styles */
+.concepts-detail,
+.edge-node-detail,
+.principles-detail {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+.concepts-detail h1,
+.edge-node-detail h1,
+.principles-detail h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #0066cc;
+  padding-bottom: 1rem;
+}
+
+.concepts-detail h2,
+.edge-node-detail h2,
+.principles-detail h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.concepts-detail p,
+.edge-node-detail p,
+.principles-detail p {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.concepts-detail ul,
+.edge-node-detail ul,
+.principles-detail ul {
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.concepts-detail strong,
+.edge-node-detail strong,
+.principles-detail strong {
+  color: #1a1a1a;
+}
+
+/* Back link styling */
+.concepts-detail p:last-child,
+.edge-node-detail p:last-child,
+.principles-detail p:last-child {
+  text-align: center;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e0e0e0;
 }

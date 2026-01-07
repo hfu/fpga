@@ -25,6 +25,14 @@ languages:
     default: true
   - code: en
     name: English
+  - code: de
+    name: Deutsch
+  - code: es
+    name: Español
+  - code: fr
+    name: Français
+  - code: zh-tw
+    name: 繁體中文
 
 # Collections
 collections:
@@ -49,6 +57,26 @@ defaults:
     values:
       lang: en
       lang_name: English
+  - scope:
+      path: "de"
+    values:
+      lang: de
+      lang_name: Deutsch
+  - scope:
+      path: "es"
+    values:
+      lang: es
+      lang_name: Español
+  - scope:
+      path: "fr"
+    values:
+      lang: fr
+      lang_name: Français
+  - scope:
+      path: "zh-tw"
+    values:
+      lang: zh-tw
+      lang_name: 繁體中文
 
 # Exclude files from processing
 exclude:
