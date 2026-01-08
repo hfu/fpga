@@ -4,7 +4,7 @@ title: Klinik ohne Netzwerk — FPGA
 lang: de
 ---
 
-<section class="scenario">
+<section class="scenario" markdown="1">
 
 # Klinik ohne Netzwerk
 

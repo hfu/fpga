@@ -4,7 +4,7 @@ title: Liberté de Terrain et Pouvoir de Plateforme
 lang: fr
 ---
 
-<section class="hero" aria-labelledby="main-heading">
+<section class="hero" aria-labelledby="main-heading" markdown="1">
 
 # Liberté de Terrain et Pouvoir de Plateforme
 {: #main-heading}
@@ -17,7 +17,7 @@ Le terrain est là où la réalité se produit. Les plateformes existent pour so
 
 ---
 
-<section id="concepts" class="concepts" aria-labelledby="concepts-heading">
+<section id="concepts" class="concepts" aria-labelledby="concepts-heading" markdown="1">
 
 ## Quatre Concepts
 {: #concepts-heading}
@@ -42,7 +42,7 @@ Ceux qui portent les conséquences prennent les décisions. L'action valide l'ar
 
 ---
 
-<section id="edge-node" class="edge-node" aria-labelledby="edge-node-heading">
+<section id="edge-node" class="edge-node" aria-labelledby="edge-node-heading" markdown="1">
 
 ## edge node
 {: #edge-node-heading}
@@ -60,7 +60,7 @@ Les hypothèses cloud uniquement échouent sur le terrain. Les edge nodes opère
 
 ---
 
-<section id="principles" class="principles" aria-labelledby="principles-heading">
+<section id="principles" class="principles" aria-labelledby="principles-heading" markdown="1">
 
 ## Principes de Conception
 {: #principles-heading}

@@ -4,7 +4,7 @@ title: エッジノードシナリオ — FPGA
 lang: ja
 ---
 
-<section class="scenarios-index">
+<section class="scenarios-index" markdown="1">
 
 # エッジノードシナリオ
 

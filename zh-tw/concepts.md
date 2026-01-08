@@ -4,7 +4,7 @@ title: 四個概念 — FPGA
 lang: zh-tw
 ---
 
-<section class="concepts-detail">
+<section class="concepts-detail" markdown="1">
 
 # 四個概念
 

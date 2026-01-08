@@ -4,7 +4,7 @@ title: Feldfreiheit und Plattformmacht
 lang: de
 ---
 
-<section class="hero" aria-labelledby="main-heading">
+<section class="hero" aria-labelledby="main-heading" markdown="1">
 
 # Feldfreiheit und Plattformmacht
 {: #main-heading}
@@ -17,7 +17,7 @@ Das Feld ist der Ort, an dem Realität geschieht. Plattformen existieren, um das
 
 ---
 
-<section id="concepts" class="concepts" aria-labelledby="concepts-heading">
+<section id="concepts" class="concepts" aria-labelledby="concepts-heading" markdown="1">
 
 ## Vier Konzepte
 {: #concepts-heading}
@@ -42,7 +42,7 @@ Diejenigen, die Konsequenzen tragen, treffen Entscheidungen. Handeln validiert A
 
 ---
 
-<section id="edge-node" class="edge-node" aria-labelledby="edge-node-heading">
+<section id="edge-node" class="edge-node" aria-labelledby="edge-node-heading" markdown="1">
 
 ## edge node
 {: #edge-node-heading}
@@ -60,7 +60,7 @@ Cloud-only-Annahmen scheitern im Feld. Edge Nodes operieren dort, wo das Netzwer
 
 ---
 
-<section id="principles" class="principles" aria-labelledby="principles-heading">
+<section id="principles" class="principles" aria-labelledby="principles-heading" markdown="1">
 
 ## Designprinzipien
 {: #principles-heading}

@@ -4,7 +4,7 @@ title: Principios de Diseño — FPGA
 lang: es
 ---
 
-<section class="principles-detail">
+<section class="principles-detail" markdown="1">
 
 # Principios de Diseño
 

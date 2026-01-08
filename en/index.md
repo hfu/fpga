@@ -4,7 +4,7 @@ title: Field Freedom and Platform Power
 lang: en
 ---
 
-<section class="hero" aria-labelledby="main-heading">
+<section class="hero" aria-labelledby="main-heading" markdown="1">
 
 # Field Freedom and Platform Power
 {: #main-heading}
@@ -17,7 +17,7 @@ The field is where reality happens. Platforms exist to support the field, not to
 
 ---
 
-<section id="concepts" class="concepts" aria-labelledby="concepts-heading">
+<section id="concepts" class="concepts" aria-labelledby="concepts-heading" markdown="1">
 
 ## Four Concepts
 {: #concepts-heading}
@@ -42,7 +42,7 @@ Those who bear consequences make decisions. Action validates architecture.
 
 ---
 
-<section id="edge-node" class="edge-node" aria-labelledby="edge-node-heading">
+<section id="edge-node" class="edge-node" aria-labelledby="edge-node-heading" markdown="1">
 
 ## edge node
 {: #edge-node-heading}
@@ -60,7 +60,7 @@ Cloud-only assumptions fail in the field. Edge nodes operate where the network i
 
 ---
 
-<section id="principles" class="principles" aria-labelledby="principles-heading">
+<section id="principles" class="principles" aria-labelledby="principles-heading" markdown="1">
 
 ## Design Principles
 {: #principles-heading}

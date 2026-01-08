@@ -4,7 +4,7 @@ title: 場域自由度與平台力量
 lang: zh-tw
 ---
 
-<section class="hero" aria-labelledby="main-heading">
+<section class="hero" aria-labelledby="main-heading" markdown="1">
 
 # 場域自由度與平台力量
 {: #main-heading}
@@ -17,7 +17,7 @@ lang: zh-tw
 
 ---
 
-<section id="concepts" class="concepts" aria-labelledby="concepts-heading">
+<section id="concepts" class="concepts" aria-labelledby="concepts-heading" markdown="1">
 
 ## 四個概念
 {: #concepts-heading}
@@ -42,7 +42,7 @@ lang: zh-tw
 
 ---
 
-<section id="edge-node" class="edge-node" aria-labelledby="edge-node-heading">
+<section id="edge-node" class="edge-node" aria-labelledby="edge-node-heading" markdown="1">
 
 ## edge node
 {: #edge-node-heading}
@@ -60,7 +60,7 @@ lang: zh-tw
 
 ---
 
-<section id="principles" class="principles" aria-labelledby="principles-heading">
+<section id="principles" class="principles" aria-labelledby="principles-heading" markdown="1">
 
 ## 設計原則
 {: #principles-heading}

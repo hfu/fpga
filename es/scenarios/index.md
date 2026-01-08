@@ -4,7 +4,7 @@ title: Escenarios de Edge Node — FPGA
 lang: es
 ---
 
-<section class="scenarios-index">
+<section class="scenarios-index" markdown="1">
 
 # Escenarios de Edge Node
 

@@ -4,7 +4,7 @@ title: 邊緣節點情境 — FPGA
 lang: zh-tw
 ---
 
-<section class="scenarios-index">
+<section class="scenarios-index" markdown="1">
 
 # 邊緣節點情境
 

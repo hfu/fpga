@@ -4,7 +4,7 @@ title: 4つのコンセプト — FPGA
 lang: ja
 ---
 
-<section class="concepts-detail">
+<section class="concepts-detail" markdown="1">
 
 # 4つのコンセプト
 

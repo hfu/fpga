@@ -4,7 +4,7 @@ title: ネットワークのない診療所 — FPGA
 lang: ja
 ---
 
-<section class="scenario">
+<section class="scenario" markdown="1">
 
 # ネットワークのない診療所
 

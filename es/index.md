@@ -4,7 +4,7 @@ title: Libertad de Campo y Poder de Plataforma
 lang: es
 ---
 
-<section class="hero" aria-labelledby="main-heading">
+<section class="hero" aria-labelledby="main-heading" markdown="1">
 
 # Libertad de Campo y Poder de Plataforma
 {: #main-heading}
@@ -17,7 +17,7 @@ El campo es donde ocurre la realidad. Las plataformas existen para apoyar al cam
 
 ---
 
-<section id="concepts" class="concepts" aria-labelledby="concepts-heading">
+<section id="concepts" class="concepts" aria-labelledby="concepts-heading" markdown="1">
 
 ## Cuatro Conceptos
 {: #concepts-heading}
@@ -42,7 +42,7 @@ Quienes asumen las consecuencias toman las decisiones. La acción valida la arqu
 
 ---
 
-<section id="edge-node" class="edge-node" aria-labelledby="edge-node-heading">
+<section id="edge-node" class="edge-node" aria-labelledby="edge-node-heading" markdown="1">
 
 ## edge node
 {: #edge-node-heading}
@@ -60,7 +60,7 @@ Las suposiciones de solo nube fallan en el campo. Los edge nodes operan donde la
 
 ---
 
-<section id="principles" class="principles" aria-labelledby="principles-heading">
+<section id="principles" class="principles" aria-labelledby="principles-heading" markdown="1">
 
 ## Principios de Diseño
 {: #principles-heading}

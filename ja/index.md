@@ -4,7 +4,7 @@ title: フィールド自由度とプラットフォームパワー
 lang: ja
 ---
 
-<section class="hero" aria-labelledby="main-heading">
+<section class="hero" aria-labelledby="main-heading" markdown="1">
 
 # フィールド自由度とプラットフォームパワー
 {: #main-heading}
@@ -17,7 +17,7 @@ lang: ja
 
 ---
 
-<section id="concepts" class="concepts" aria-labelledby="concepts-heading">
+<section id="concepts" class="concepts" aria-labelledby="concepts-heading" markdown="1">
 
 ## 4つのコンセプト
 {: #concepts-heading}
@@ -42,7 +42,7 @@ lang: ja
 
 ---
 
-<section id="edge-node" class="edge-node" aria-labelledby="edge-node-heading">
+<section id="edge-node" class="edge-node" aria-labelledby="edge-node-heading" markdown="1">
 
 ## エッジノード
 {: #edge-node-heading}
@@ -60,7 +60,7 @@ lang: ja
 
 ---
 
-<section id="principles" class="principles" aria-labelledby="principles-heading">
+<section id="principles" class="principles" aria-labelledby="principles-heading" markdown="1">
 
 ## 設計原則
 {: #principles-heading}

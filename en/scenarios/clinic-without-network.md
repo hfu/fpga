@@ -4,7 +4,7 @@ title: A Clinic Without a Network — FPGA
 lang: en
 ---
 
-<section class="scenario">
+<section class="scenario" markdown="1">
 
 # A Clinic Without a Network
 

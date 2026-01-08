@@ -4,7 +4,7 @@ title: Principes de Conception — FPGA
 lang: fr
 ---
 
-<section class="principles-detail">
+<section class="principles-detail" markdown="1">
 
 # Principes de Conception
 

@@ -4,7 +4,7 @@ title: 無網路的診所 — FPGA
 lang: zh-tw
 ---
 
-<section class="scenario">
+<section class="scenario" markdown="1">
 
 # 無網路的診所
 

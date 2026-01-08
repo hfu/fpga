@@ -4,7 +4,7 @@ title: edge node — FPGA
 lang: en
 ---
 
-<section class="edge-node-detail">
+<section class="edge-node-detail" markdown="1">
 
 # edge node
 

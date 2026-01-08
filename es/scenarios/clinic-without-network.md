@@ -4,7 +4,7 @@ title: Clínica sin Red — FPGA
 lang: es
 ---
 
-<section class="scenario">
+<section class="scenario" markdown="1">
 
 # Clínica sin Red
 

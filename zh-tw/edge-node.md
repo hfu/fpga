@@ -4,7 +4,7 @@ title: 邊緣節點 — FPGA
 lang: zh-tw
 ---
 
-<section class="edge-node-detail">
+<section class="edge-node-detail" markdown="1">
 
 # 邊緣節點
 

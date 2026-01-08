@@ -4,7 +4,7 @@ title: Four Concepts — FPGA
 lang: en
 ---
 
-<section class="concepts-detail">
+<section class="concepts-detail" markdown="1">
 
 # Four Concepts
 

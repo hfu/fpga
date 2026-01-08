@@ -4,7 +4,7 @@ title: 設計原則 — FPGA
 lang: ja
 ---
 
-<section class="principles-detail">
+<section class="principles-detail" markdown="1">
 
 # 設計原則
 
