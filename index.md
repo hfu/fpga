@@ -20,8 +20,32 @@ title: FPGA — Choose Language / 言語を選択
         <span class="language-name">English</span>
         <span class="language-desc">English</span>
       </a>
+      
+      <a href="/fpga/de/" class="language-option">
+        <span class="language-flag">🇩🇪</span>
+        <span class="language-name">Deutsch</span>
+        <span class="language-desc">German</span>
+      </a>
+      
+      <a href="/fpga/es/" class="language-option">
+        <span class="language-flag">🇪🇸</span>
+        <span class="language-name">Español</span>
+        <span class="language-desc">Spanish</span>
+      </a>
+      
+      <a href="/fpga/fr/" class="language-option">
+        <span class="language-flag">🇫🇷</span>
+        <span class="language-name">Français</span>
+        <span class="language-desc">French</span>
+      </a>
+      
+      <a href="/fpga/zh-tw/" class="language-option">
+        <span class="language-flag">🇹🇼</span>
+        <span class="language-name">繁體中文</span>
+        <span class="language-desc">Traditional Chinese</span>
+      </a>
     </div>
     
-    <p class="language-note">Coming: Deutsch • Español • Français • 繁體中文</p>
+    <p class="language-note">All 6 languages available</p>
   </div>
 </div>

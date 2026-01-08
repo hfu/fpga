@@ -75,7 +75,7 @@ just clean
 ```
 .
 ├── index.md                 # Language selector page
-├── ja/                      # Japanese content
+├── ja/                      # Japanese content (完全実装)
 │   ├── index.md             # Main page
 │   ├── concepts.md          # Four concepts detail
 │   ├── edge-node.md         # Edge node explanation
@@ -83,7 +83,7 @@ just clean
 │   └── scenarios/           # Edge node scenarios
 │       ├── index.md         # Scenarios index
 │       └── clinic-without-network.md
-├── en/                      # English content
+├── en/                      # English content (完全実装)
 │   ├── index.md             # Main page
 │   ├── concepts.md          # Four concepts detail
 │   ├── edge-node.md         # Edge node explanation
@@ -91,14 +91,38 @@ just clean
 │   └── scenarios/           # Edge node scenarios
 │       ├── index.md         # Scenarios index
 │       └── clinic-without-network.md
-├── de/                      # German (placeholder)
-│   └── index.md
-├── es/                      # Spanish (placeholder)
-│   └── index.md
-├── fr/                      # French (placeholder)
-│   └── index.md
-├── zh-tw/                   # Traditional Chinese (placeholder)
-│   └── index.md
+├── de/                      # Deutsch content (完全実装)
+│   ├── index.md             # Main page
+│   ├── concepts.md          # Four concepts detail
+│   ├── edge-node.md         # Edge node explanation
+│   ├── design-principles.md # Design principles detail
+│   └── scenarios/           # Edge node scenarios
+│       ├── index.md         # Scenarios index
+│       └── clinic-without-network.md
+├── es/                      # Español content (完全実装)
+│   ├── index.md             # Main page
+│   ├── concepts.md          # Four concepts detail
+│   ├── edge-node.md         # Edge node explanation
+│   ├── design-principles.md # Design principles detail
+│   └── scenarios/           # Edge node scenarios
+│       ├── index.md         # Scenarios index
+│       └── clinic-without-network.md
+├── fr/                      # Français content (完全実装)
+│   ├── index.md             # Main page
+│   ├── concepts.md          # Four concepts detail
+│   ├── edge-node.md         # Edge node explanation
+│   ├── design-principles.md # Design principles detail
+│   └── scenarios/           # Edge node scenarios
+│       ├── index.md         # Scenarios index
+│       └── clinic-without-network.md
+├── zh-tw/                   # 繁體中文 content (完全実装)
+│   ├── index.md             # Main page
+│   ├── concepts.md          # Four concepts detail
+│   ├── edge-node.md         # Edge node explanation
+│   ├── design-principles.md # Design principles detail
+│   └── scenarios/           # Edge node scenarios
+│       ├── index.md         # Scenarios index
+│       └── clinic-without-network.md
 ├── style.css                # Styling (no frameworks)
 ├── _layouts/
 │   ├── default.html         # Main template with navigation
@@ -115,14 +139,14 @@ just clean
 
 ## Multilingual Support
 
-The site supports multiple languages with a modular structure:
+The site supports 6 languages with complete content parity:
 
-- **Japanese (日本語)**: Fully implemented with detailed subpages
-- **English**: Fully implemented with detailed subpages
-- **German (Deutsch)**: Placeholder ready for translation
-- **Spanish (Español)**: Placeholder ready for translation
-- **French (Français)**: Placeholder ready for translation
-- **Traditional Chinese (繁體中文)**: Placeholder ready for translation
+- **日本語 (Japanese)**: ✅ Fully implemented with all pages and scenarios
+- **English**: ✅ Fully implemented with all pages and scenarios
+- **Deutsch (German)**: ✅ Fully implemented with all pages and scenarios
+- **Español (Spanish)**: ✅ Fully implemented with all pages and scenarios
+- **Français (French)**: ✅ Fully implemented with all pages and scenarios
+- **繁體中文 (Traditional Chinese)**: ✅ Fully implemented with all pages and scenarios
 
 Each language directory contains:
 - `index.md` - Landing page with overview and links
