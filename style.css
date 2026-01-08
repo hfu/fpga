@@ -1,4 +1,8 @@
 /* Reset and Base Styles */
+:root {
+  --content-max: 900px;
+  --content-pad: 2rem;
+}
 * {
   margin: 0;
   padding: 0;
@@ -86,7 +90,7 @@ li {
 }
 
 .nav-container {
-  max-width: 900px;
+  max-width: var(--content-max);
   margin: 0 auto;
   padding: 1rem 2rem;
   display: flex;
@@ -154,6 +158,12 @@ li {
   border-bottom: 1px solid #e0e0e0;
 }
 
+.hero > * {
+  max-width: var(--content-max);
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hero h1 {
   margin-bottom: 0.5rem;
   color: #1a1a1a;
@@ -189,7 +199,7 @@ li {
 
 /* Concepts Section */
 .concepts {
-  max-width: 900px;
+  max-width: var(--content-max);
   margin: 4rem auto;
   padding: 0 2rem;
 }
@@ -233,7 +243,7 @@ li {
 }
 
 .edge-node-content {
-  max-width: 900px;
+  max-width: var(--content-max);
   margin: 0 auto;
 }
 
@@ -276,7 +286,7 @@ li {
 
 /* Design Principles Section */
 .principles {
-  max-width: 900px;
+  max-width: var(--content-max);
   margin: 4rem auto;
   padding: 0 2rem;
 }
@@ -321,7 +331,7 @@ li {
 
 /* Closing Section */
 .closing {
-  max-width: 900px;
+  max-width: var(--content-max);
   margin: 4rem auto;
   padding: 0 2rem;
 }
@@ -372,6 +382,8 @@ li {
 .language-selector-content {
   text-align: center;
   max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .language-selector-content h1 {
@@ -565,7 +577,7 @@ li {
 .principles-detail,
 .scenarios-index,
 .scenario {
-  max-width: 900px;
+  max-width: var(--content-max);
   margin: 4rem auto;
   padding: 0 2rem;
 }
